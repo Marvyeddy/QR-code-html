@@ -1,0 +1,51 @@
+/*||VARIABLES */
+:root {
+    --BODY-BGCOLOR: #a9d0df;
+    --MAIN-BGCOLOR: white;
+    --FONT-COLOR: gray;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--BODY-BGCOLOR);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    display: grid;
+    place-content: center;
+    margin: 9rem;
+}
+
+main {
+    max-width: 250px;
+    background-color: var(--MAIN-BGCOLOR);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-size: 1.075em;
+    color: #474040;
+}
+
+p{
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    font-size: 0.75em;
+    color: var(--FONT-COLOR);
+}
